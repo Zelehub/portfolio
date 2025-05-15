@@ -28,10 +28,10 @@ function App() {
                 <BannerComponent></BannerComponent>
                 <ProfileDescription></ProfileDescription>
 
-                <div style={{ width: "100%", margin: "auto", height: "1500px", position: "relative" }}>
+                <div className="circular-gallery-container">
                   <h2 style={{ color: "white" }}>Tech Stack</h2>
                   <CircularGallery
-                    bend={1}
+                    bend={2}
                     textColor="#ffffff"
                     borderRadius={0.05}
                   />

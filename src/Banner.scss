@@ -1,15 +1,26 @@
 .banner-container {
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 400px;
-  top: 30%;
-
   margin: auto;
+  right: 5%;
+  top: 10%;
+  // border: 2px solid white;
   h1{
     color: white;
+    font-size: 50px;
   }
   h2{
     color: white
   }
 
+  .welcome-message {
+    font-size: 100px;
+    color: white;
+  }
+
+  .portfolio-message {
+    font-size: 50px;
+    color: white;
+  }
 }
