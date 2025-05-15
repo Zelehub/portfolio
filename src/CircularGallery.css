@@ -1,3 +1,12 @@
+.circular-gallery-container {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin: auto;
+  height: 1500px;
+
+}
+
 .circular-gallery {
   width: 100%;
   height: 30%;
