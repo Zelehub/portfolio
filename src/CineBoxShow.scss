@@ -1,0 +1,21 @@
+.cinebox-show {
+  width: 50%;
+  margin: auto;
+
+  .images-list {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    img {
+      // width: 300px;
+      height: 250px;
+    }
+
+  }
+
+  h1, p {
+    color: white;
+  }
+}

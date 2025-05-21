@@ -14,10 +14,15 @@ import {
 } from "react-router-dom";
 import CircularGallery from "./components/CircularGallery";
 import CineBox from "./components/CineBox";
+import ProjectGrid from "./components/ProjectGrid";
+import CineBoxShow from "./components/CineBoxShow";
+import NavBar from "./components/NavBar";
+import Certfications from "./components/Certifications";
 
 function App() {
   return (
     <div className="App">
+      <NavBar></NavBar>
       <Router>
         <Routes>
           <Route
@@ -27,7 +32,7 @@ function App() {
                 <Aurora></Aurora>
                 <BannerComponent></BannerComponent>
                 <ProfileDescription></ProfileDescription>
-
+                <ProjectGrid></ProjectGrid>
                 <div className="circular-gallery-container">
                   <h2 style={{ color: "white" }}>Tech Stack</h2>
                   <CircularGallery
@@ -36,10 +41,11 @@ function App() {
                     borderRadius={0.05}
                   />
                 </div>
+                <Certfications></Certfications>
               </div>
             }
           ></Route>
-          <Route path="/cinebox" element={<CineBox></CineBox>}></Route>
+          <Route path="/cinebox" element={<CineBoxShow></CineBoxShow>}></Route>
           <Route path="*" element={<Navigate to="/"></Navigate>}></Route>
         </Routes>
       </Router>
