@@ -1,4 +1,6 @@
 import "../CineBoxShow.scss"
+import Reviews from "./Reviews";
+import CineboxReviewForm from "./CineboxReviewForm";
 
 export default function CineBoxShow() {
   return (
@@ -19,7 +21,8 @@ export default function CineBoxShow() {
         list, CineBox helps movie lovers keep track of what they love, what
         they’ve seen, and what they plan to watch.
       </p>
-
+      <Reviews></Reviews>
+      <CineboxReviewForm></CineboxReviewForm>
       <a href="https://www.cinebox.space">Check it out !</a>
     </div>
   );
